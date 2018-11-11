@@ -6,10 +6,14 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
+chooseCRANmirror(graphics=FALSE, ind=1)
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+## Downloaded These Packages
 ```{r,warning=FALSE}
+install.packages("readxl")
+install.packages("tidyverse")
 ```
 ## Used This Libraries
 ```{r, warning=FALSE}
