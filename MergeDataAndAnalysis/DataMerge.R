@@ -47,7 +47,7 @@ download.file("https://github.com/MEF-BDA503/pj18-SerhanSuer/blob/master/odd_car
 main_data <- bind_rows(main_data,readRDS(tmprds))
 
 # Save the final merged RDS file
-saveRDS(main_data,file="/Users/macboookair/Desktop/bda/pj18-mkaracabey/car_data_aggregate.rds")
+saveRDS(main_data,file="/Users/macboookair/Desktop/bda/pj18-mkaracabey/MergeDataAndAnalysis/car_data_aggregate.rds")
 
 # Remove temporary file
 file.remove(tmprds)
