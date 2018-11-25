@@ -151,6 +151,7 @@ tabl <- dat %>%
 ```{r , echo=FALSE}
 ggplot(tabl,aes(x=month,y=auto_total))+geom_point()
 ```
+
 ## Analysis for __BENTLEY__
 
 Most automobile sales for BENTLEY.
@@ -311,7 +312,7 @@ ggplot(tabl,aes(x=month,y=auto_total))+geom_point()
 
 ## Analysis for __CITROEN__
 
-Most automobile sales for CHERY.
+Most automobile sales for CITROEN.
 ```{r, warning=FALSE}
 dat %>% 
   select(brand_name,auto_total,auto_dom,comm_dom,total_imp,total_dom,year,month) %>% filter(brand_name == 'CITROEN') %>% arrange(desc(auto_total))
@@ -365,7 +366,7 @@ ggplot(tabl,aes(x=month,y=auto_total))+geom_point()
 
 ## Analysis for __DACIA__
 
-Most automobile sales for CHERY.
+Most automobile sales for DACIA.
 ```{r, warning=FALSE}
 dat %>% 
   select(brand_name,auto_total,auto_dom,comm_dom,total_imp,total_dom,year,month) %>% filter(brand_name == 'DACIA') %>% arrange(desc(auto_total))
@@ -418,7 +419,7 @@ ggplot(tabl,aes(x=month,y=auto_total))+geom_point()
 
 ## Analysis for __DS__
 
-Most automobile sales for CHERY.
+Most automobile sales for DS.
 ```{r, warning=FALSE}
 dat %>% 
   select(brand_name,auto_total,auto_dom,comm_dom,total_imp,total_dom,year,month) %>% filter(brand_name == 'DS') %>% arrange(desc(auto_total))
@@ -471,7 +472,7 @@ ggplot(tabl,aes(x=month,y=auto_total))+geom_point()
 
 ## Analysis for __FERRARI__
 
-Most automobile sales for CHERY.
+Most automobile sales for FERRARI.
 ```{r, warning=FALSE}
 dat %>% 
   select(brand_name,auto_total,auto_dom,comm_dom,total_imp,total_dom,year,month) %>% filter(brand_name == 'FERRARI') %>% arrange(desc(auto_total))
@@ -523,7 +524,7 @@ ggplot(tabl,aes(x=month,y=auto_total))+geom_point()
 ```
 ## Analysis for __FIAT__
 
-Most automobile sales for CHERY.
+Most automobile sales for FIAT.
 ```{r, warning=FALSE}
 dat %>% 
   select(brand_name,auto_total,auto_dom,comm_dom,total_imp,total_dom,year,month) %>% filter(brand_name == 'FIAT') %>% arrange(desc(auto_total))
@@ -576,7 +577,7 @@ ggplot(tabl,aes(x=month,y=auto_total))+geom_point()
 
 ## Analysis for __RENAULT__
 
-Most automobile sales for CHERY.
+Most automobile sales for RENAULT.
 ```{r, warning=FALSE}
 dat %>% 
   select(brand_name,auto_total,auto_dom,comm_dom,total_imp,total_dom,year,month) %>% filter(brand_name == 'RENAULT') %>% arrange(desc(auto_total))
